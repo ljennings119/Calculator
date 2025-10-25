@@ -1,7 +1,9 @@
 body {
-  font-family: Arial;
+  font-family:'Courier New', Courier, monospace;
   text-align: center;
   margin-top: 50px;
+  background-color:rgb(101, 142, 161);
+  font-size: 2rem
 }
 
 .calculator input,
@@ -10,4 +12,9 @@ button {
   margin: 5px;
   padding: 8px;
   font-size: 1rem;
+}
+
+button {
+    background-color:rgb(238, 131, 31);
+    color: white
 }
