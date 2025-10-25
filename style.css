@@ -1,0 +1,13 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.calculator input,
+select,
+button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 1rem;
+}
