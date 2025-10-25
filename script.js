@@ -25,3 +25,11 @@ document.getElementById('equals').addEventListener('click', () => {
 
   result.textContent = res;
 });
+
+
+document.getElementById('reset').addEventListener('click', () => {
+  num1.value = '';
+  num2.value = '';
+  result.textContent = '--';
+  operator.value = '+';
+});
